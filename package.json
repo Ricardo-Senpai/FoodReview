@@ -1,0 +1,20 @@
+{
+  "name": "foodreview",
+  "version": "1.0.0",
+  "description": "Servidor Backend para a aplicativo de avaliação de restaurantes",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ricardo-Senpai/FoodReview.git"
+  },
+  "author": "RicardoSenpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-Senpai/FoodReview/issues"
+  },
+  "homepage": "https://github.com/Ricardo-Senpai/FoodReview#readme"
+}
