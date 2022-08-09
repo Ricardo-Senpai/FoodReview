@@ -20,8 +20,8 @@ server.get('/users',(req,res) => res.send('Pagina de Usuários'))
 
 const migrate = async () => {
     try {
-    const resultado= await connection.sync()
-    console.log(resultado)
+        const resultado= await connection.sync()
+        console.log(resultado)
     } catch(error){
         console.log(error)
     }

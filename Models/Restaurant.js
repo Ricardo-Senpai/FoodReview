@@ -29,4 +29,4 @@ const Restaurant= connection.define(
     }
 )
 
-export default Restaurant
+export default Restaurant;
