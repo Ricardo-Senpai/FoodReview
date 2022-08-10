@@ -1,5 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
+import connect from "./Config/db.js"
 
 // load Config
 dotenv.config({path:'./config/config.env'})
@@ -14,3 +15,5 @@ server.listen(
 server.get('/', (req,res) => res.send('Hello meu consagrado!'))
 
 server.get('/users',(req,res) => res.send('Pagina de Usuários'))
+
+connect()
