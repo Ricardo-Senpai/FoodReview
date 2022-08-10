@@ -25,6 +25,7 @@ export default async function connect(){
   }
 }
 
+console.log('cuceta')
 // const connect= () =>{
 
     // var connection = mysql.createConnection({
