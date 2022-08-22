@@ -1,30 +1,34 @@
 {
-  "name": "foodreview",
+  "name": "food-review",
   "version": "1.0.0",
-  "description": "Servidor Backend para a aplicativo de avaliação de restaurantes",
-  "main": "Server.js",
+  "description": "Servidor Backend para app de avaliação de restaurante",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_ENV=producao node Server",
-    "dev": "cross-env NODE_ENV=desenvolvimento nodemon Server"
+    "start": "cross-env NODE_ENV=producao node server",
+    "dev": "cross-env NODE_ENV=desenvolvimento nodemon server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ricardo-Senpai/FoodReview.git"
+    "url": "git+https://github.com/Marcovisr/foodReview.git"
   },
-  "author": "RicardoSenpai",
+  "author": "Marcovis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ricardo-Senpai/FoodReview/issues"
+    "url": "https://github.com/Marcovisr/foodReview/issues"
   },
-  "homepage": "https://github.com/Ricardo-Senpai/FoodReview#readme",
+  "homepage": "https://github.com/Marcovisr/foodReview#readme",
   "dependencies": {
-    "cross-env": "^7.0.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.19",
     "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.19"
   }
 }
